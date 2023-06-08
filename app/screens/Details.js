@@ -11,16 +11,11 @@ import {
 import {
 	RoundBtn,
 	BoxBtn,
-	SubInfo,
-	DetailsDesc,
 	FocusedStatusBar,
 	BidDescription,
+	NFTDetails,
+	TokenDescription,
 } from '../components';
-
-//TODO: rename the bttons to roundBtn, boxBtn,
-//TODO: rename SubInfo to lessInfo,
-//TODO: rename DetailsDesc to tokendescription,
-//TODO: rename FocusedStatusBar to StatusBar,
 
 const DetailsHeader = ({ data, navigation }) => (
 	<View style={{ width: '100%', height: 373 }}>
@@ -82,9 +77,9 @@ const Details = ({ route, navigation }) => {
 				ListHeaderComponent={() => (
 					<React.Fragment>
 						<DetailsHeader data={data} navigation={navigation} />
-						<SubInfo />
+						<NFTDetails />
 						<View style={{ padding: SIZES.font }}>
-							<DetailsDesc data={data} />
+							<TokenDescription data={data} />
 
 							{data.bids.length > 0 && (
 								<Text

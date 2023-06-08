@@ -6,15 +6,15 @@ const App = () => {
 	return (
 		<>
 			<SectionWrapper
-				title='Welcome to Nifty online, store for NFTs. Start Selling & Growing'
-				description='Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people using ProNef Marketplace mobile app.'
+				title='Welcome to NFT online, store for NFTs. Start Selling & Growing'
+				description='Buy, store, collect NFTs, exchange & earn crypto. Join millions online using ProNef Marketplace mobile app.'
 				showBtn
 				mockupImg={assets.homeHero}
 				banner='banner'
 			/>
 			<SectionWrapper
-				title='Beautiful and Smart User Interface Marketplace'
-				description='Experience a buttery UI of ProNef NFT Marketplace. Smooth constant colors of a fluent UI design to give users an unforgetable moments.'
+				title='Beautiful and Elegant UI Marketplace'
+				description='Experience a flowless UI of ProNef NFT Marketplace. Smooth constant colors of a fluent UI design to give users an unforgetable moments.'
 				mockupImg={assets.homeCards}
 				reverse
 			/>
@@ -32,12 +32,6 @@ const App = () => {
 				banner='banner02'
 			/>
 			<Download />
-
-			<div className='px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04'>
-				<p className={`${styles.pText} ${styles.whiteText}`}>
-					Made with love by <span className='bold'>JavaScript Mastery</span>
-				</p>
-			</div>
 		</>
 	);
 };

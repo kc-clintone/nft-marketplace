@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
-import { EthPrice } from './SubInfo';
+import { EthPrice } from './NFTDetails';
 import { COLORS, SIZES, FONTS } from '../constants';
 
 const BidDescription = ({ bid }) => {

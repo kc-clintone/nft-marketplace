@@ -1,15 +1,15 @@
 import HomeHeader from './HomeHeader';
 import NFTCard from './NFTCard';
 import { BoxBtn, RoundBtn } from './Button';
-import { SubInfo, People, EndDate, EthPrice, NFTTitle } from './SubInfo';
+import { NFTDetails, People, EndDate, EthPrice, NFTTitle } from './NFTDetails';
 import FocusedStatusBar from './FocusedStatusBar';
-import DetailsDesc from './DetailsDesc';
 import BidDescription from './BidDescription';
+import TokenDescription from './TokenDescription';
 
 export {
 	HomeHeader,
 	NFTCard,
-	SubInfo,
+	NFTDetails,
 	People,
 	EndDate,
 	BoxBtn,
@@ -17,6 +17,6 @@ export {
 	EthPrice,
 	NFTTitle,
 	FocusedStatusBar,
-	DetailsDesc,
+	TokenDescription,
 	BidDescription,
 };

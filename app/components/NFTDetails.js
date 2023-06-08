@@ -124,7 +124,7 @@ export const EndDate = () => {
 	);
 };
 
-export const SubInfo = () => {
+export const NFTDetails = () => {
 	return (
 		<View
 			style={{
